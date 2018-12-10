@@ -1,4 +1,5 @@
 rootProject.name = 'micro-spring'
 include 'step-1'
 include 'step-2'
+include 'step-3'
 
