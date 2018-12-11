@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean name="helloWorldService" class="com.jpanj.microioc.HelloWorldService">
+        <property name="text" value="Hello World!" />
+    </bean>
+</beans>
