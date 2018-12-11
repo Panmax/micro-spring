@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean name="outputService" class="com.jpanj.microioc.OutputService">
+        <property name="helloWorldService" ref="helloWorldService" />
+    </bean>
+
+    <bean name="helloWorldService" class="com.jpanj.microioc.HelloWorldService">
+        <property name="text" value="Hello World!" />
+        <property name="outputService" ref="outputService" />
+    </bean>
+</beans>
